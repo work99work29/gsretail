@@ -1,0 +1,205 @@
+#gs_wrap {
+    width: 958px;
+    height: 449px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.member {
+    width: 226px;
+    height: 319px;
+    box-sizing: border-box;
+}
+.youtube {
+    width: 226px;
+    box-sizing: border-box;
+}
+.service {
+    width: 466px;
+    height: 319px;
+    box-sizing: border-box;
+}
+.point {
+    width: 226px;
+    height: 110px;
+    border: 1px solid #333;
+    box-sizing: border-box;
+}
+.notice {
+    width: 712px;
+    height: 108px;
+    border: 1px solid #333;
+    box-sizing: border-box;
+}
+
+/* title */
+.title {
+    height: 44px;
+}
+
+.title h2 {
+    font-size: 22px;
+}
+.title h2 span {
+    color: #216fed;
+}
+
+
+/* member */
+.member_content {
+    height: 275px;
+    background-color: #fff;
+    background: url(../img/sweet.jpg) no-repeat;
+    text-align: center;
+    border: 1px solid #333;
+}
+.member_content h3 {
+    padding-top: 215px;
+    font-size: 15px;
+    letter-spacing: -0.5px;
+}
+.member_content p {
+    font-size: 14px;
+    margin-top: 3px;
+    background: url(../img/won.jpg) no-repeat 35%;
+}
+
+/* youtube */
+.youtube_content {
+    height: 275px;
+    background: url(../img/youtube_icon.jpg) no-repeat 20px 30px;
+    border: 1px solid #333;
+}
+.youtube_content h3 {
+    margin-left: 70px;
+    padding-top: 30px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.youtube_content p {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 13px;
+    margin-top: 5px;
+    line-height: 18px;
+}
+
+.youtube_video {
+    width: 185px;
+    height: 122px;
+    background-color: #999;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: url(../img/youtube.jpg);
+}
+
+/* service */
+.service_content {
+    height: 275px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #333;    
+    box-sizing: border-box;
+}
+
+.service_cont01, .service_cont02 {
+    width: 232px;
+    height: 137px;
+    box-sizing: border-box;
+    display: flex;
+    padding: 40px 0 40px 30px;
+}
+
+.service_cont03, .service_cont04 {
+    width: 232px;
+    height: 136px;
+    box-sizing: border-box;
+    display: flex;
+    padding: 40px 0 40px 30px;
+
+}
+.service_cont01 {
+    border-right: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+.service_cont02 {
+    border-bottom: 1px solid #333;
+}
+.service_cont03 {
+    border-right: 1px solid #333;
+}
+
+.chk, .consult, .membership, .recurt {
+    width: 56px;
+    height: 50px;
+    background-color: yellow;
+    margin-right: 10px;
+}
+.desc>strong, .desc>span {
+    display: block;
+}
+.desc>strong{
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.chk {
+    background: url(../img/check.jpg) no-repeat;
+}
+.consult {
+    background: url(../img/consult.jpg) no-repeat;
+}
+.membership {
+    background: url(../img/membership.jpg) no-repeat;
+}
+.recurt {
+    background: url(../img/recurt.jpg) no-repeat;
+}
+/* point */
+.point {
+    background: #00a6a6 url(../img/gs_point.jpg) no-repeat 24px 25px;
+}
+
+.point h2 {
+    padding-top: 22px;
+    margin-left: 80px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.point h2 span {
+    font-weight: 300;
+}
+
+.point p {
+    margin-left: 80px;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: -0.5px
+}
+
+/* notice */
+.notice ul {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 23px;
+}
+.notice ul li {
+    margin-bottom: 5px;
+}
+.notice ul li span.note{
+    font-size: 15px;
+    font-weight: bold;
+}
+.notice ul li span.more{
+    float: right;
+    background: url(../img/plus.jpg) no-repeat right;
+    padding-right: 15px;
+}
+.notice ul li span.date{
+    float: right;
+}
